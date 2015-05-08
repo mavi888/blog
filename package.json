@@ -1,0 +1,15 @@
+{
+  "name": "blog_app",
+  "version": "1.0.0",
+  "description": "first blog app",
+  "main": "index.js",
+  "dependencies": {
+        "express": "3.x",
+         "hbs":"*"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
