@@ -1,17 +1,82 @@
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
     <title>{{title}}</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
+    <!--Jquery -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <!--modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body>
-    <div class="container">
-      {{{body}}}
-    
-      <footer>
-        <p>
-          <a href="/">Home</a> ~ <a href="/about">About Me</a>
-        </p>
-      </footer>
-    </div>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+      <!-- Menu -->
+    	<nav class="menu" id="theMenu">
+    		<div class="menu-wrap">
+    			<h1 class="logo"><a href="index.html#home">Minimal</a></h1>
+    			<i class="icon-remove menu-close"></i>
+    			<a href="/" class="smoothScroll">Home</a>
+    			<a href="/about" class="smoothScroll">About</a>
+    			<a href="#"><i class="icon-facebook"></i></a>
+    			<a href="#"><i class="icon-twitter"></i></a>
+    			<a href="#"><i class="icon-dribbble"></i></a>
+    			<a href="#"><i class="icon-envelope"></i></a>
+    		</div>
+
+    		<!-- Menu button -->
+    		<div id="menuToggle"><i class="icon-reorder"></i></div>
+    	</nav>
+
+      <!-- ========== HEADER SECTION ========== -->
+      <section id="home" name="home"></section>
+      <div id="headerwrap">
+        <div class="container">
+          <div class="logo">
+            <img src="assets/img/logo.png">
+          </div>
+          <br>
+          <div class="row">
+            <h1>My first server application</h1>
+            <br>
+            <h3>Hello, this is my blog and it looks so pretty</h3>
+            <br>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+            </div>
+          </div>
+        </div><!-- /container -->
+      </div><!-- /headerwrap -->
+
+      <div class="container">
+        {{{body}}}
+      </div>
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/classie.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/smoothscroll.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
