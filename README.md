@@ -2,7 +2,9 @@
 # Tutorial : Blog application
 ## Using Node.js
 
-Tutorial application to create a blog app using Javascript and Node.js
+This is a tutorial application to create your first web application using Javascript, Node.js, Express, Bootstrap and BlackTie. 
+
+![end result](http://i2.wp.com/marciavillalba.com/tech/wp-content/uploads/2015/07/Screen-Shot-2015-07-20-at-21.35.55.png?zoom=2&resize=640%2C309)
 
 You can follow the instructions for building this blog application here:
 - [Step 1: Node and Express what are those] (http://marciavillalba.com/tech/node-js-and-express-what-are-those/)
